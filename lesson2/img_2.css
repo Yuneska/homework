@@ -1,0 +1,14 @@
+.target5{
+    background: #7F7F7FFF;
+    height: 300px;
+    width: 600px;
+    margin: 100px 20px 20px 5px;
+    box-shadow: burlywood -62px -107px 247px 35px ;
+}
+.target6{
+    margin-top: 34px;
+    margin-left: 7px;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    border-left: 10px solid darkred;
+}
