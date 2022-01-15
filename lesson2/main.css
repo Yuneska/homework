@@ -1,3 +1,4 @@
+body {background-color: #242424}
 .target1{
     font-size: 20px;
     background: #242424;
@@ -6,17 +7,18 @@
     overflow: hidden;
 
     box-sizing: border-box;
-    padding: 20px 20px;
+    padding: 10px;
 
 
     border: 4px solid #fd6e1d;
     border-radius: 80px;
 
-    margin-top: 200px;
+    margin-top: 176px;
     margin-bottom: 5px;
-    margin-left: 400px;
+    margin-left: 437px;
     margin-right: 400px;}
-.target2{
+
+.target2 {
     font-size: 20px;
     background: #242424;
     height: 50px;
@@ -24,7 +26,7 @@
     overflow: hidden;
 
     box-sizing: border-box;
-    padding: 20px 20px;
+    padding: 10px;
 
 
     border: 4px solid #2cfdf1;
@@ -32,7 +34,7 @@
 
     margin-top: auto;
     margin-bottom: 5px;
-    margin-left: 400px;
+    margin-left: 437px;
     margin-right: 400px;}
 
 .target3{
@@ -43,7 +45,7 @@
     overflow: hidden;
 
     box-sizing: border-box;
-    padding: 20px 20px;
+    padding: 10px;
 
 
     border: 4px solid #FD54A5FF;
@@ -51,7 +53,7 @@
 
     margin-top: auto;
     margin-bottom: 5px;
-    margin-left: 400px;
+    margin-left: 437px;
     margin-right: 400px;}
 
 .target4{
@@ -62,7 +64,7 @@
     overflow: hidden;
 
     box-sizing: border-box;
-    padding: 20px 20px;
+    padding:10px;
 
 
     border: 4px solid #FD3E3EFF;
@@ -70,6 +72,6 @@
 
     margin-top: auto;
     margin-bottom: 5px;
-    margin-left: 400px;
+    margin-left: 437px;
     margin-right: 400px;
 }
