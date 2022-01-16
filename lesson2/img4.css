@@ -1,0 +1,11 @@
+.grnbox {
+    background: #6bb967;
+    width:200px;
+    height: 200px;
+}
+.slvrbox{
+    background: #8785aa;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
