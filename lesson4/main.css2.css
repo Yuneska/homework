@@ -1,0 +1,58 @@
+.box1>h4{text-align: center}
+.bckgr1 {background: #102b3e}
+.wdth1 {width: 100px}
+.wdth2{width: 80px}
+.hght {height:80px}
+.mrgn1 {margin-right: 10px;
+margin-top: -30px}
+.mrgn2{margin-top:60px}
+.rds1 {border-radius: 10px}
+.bckgr2{background: #cdd7e1}
+.rds2 {border-radius: 50%}
+.box1{width: 500px;
+    background:#ced6e0;
+    height: 200px;}
+.border{width: 480px;
+    height: 150px;
+    border:3px solid #8ab5be;
+    border-radius: 10px;
+position: absolute;
+left: 16px;
+top: 50px}
+
+.text {display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: x-small}
+
+.boxes{display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: x-small;
+    margin-top: 75px;
+}
+.box2{width: 500px;
+height: 200px;
+background: #102b3e}
+
+.circle{display: flex;
+flex-direction: row;
+align-content: center;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap}
+
+.text2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: x-small}
+.border2{
+    width: 100px;
+    height: 150px;
+    border:3px solid #8ab5be;
+    position: relative;
+    bottom:147px;
+    left: 197px}
