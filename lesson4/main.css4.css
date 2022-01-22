@@ -1,0 +1,29 @@
+.sizeb1{width: 297px;
+height: 55px;}
+.sizeb2{width: 88px;
+height: 210px}
+.sizeb3{width: 200px;
+height: 100px}
+.brdr{border:2px solid black}
+.text{text-align: center}
+.bd1{background: #e5f6af}
+.bd2{background: #f9b2f9}
+.bd3{background: #9ee1fd}
+.bd4{background: #fdfdc9}
+.padtop1{padding-top: 38px}
+.padtop2{padding-top: 14px}
+.padtop3{padding-top: 83px}
+.bxsz{box-sizing: border-box}
+.mrgnright{margin-right: 10px}
+
+
+
+#container{display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    margin-top: 10px;}
+#container2{display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: -7px;
+    margin-bottom: -6px;}

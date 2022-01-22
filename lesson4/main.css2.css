@@ -4,7 +4,7 @@
 .wdth2{width: 80px}
 .hght {height:80px}
 .mrgn1 {margin-right: 10px;
-margin-top: -30px}
+    margin-top: -30px}
 .mrgn2{margin-top:60px}
 .rds1 {border-radius: 10px}
 .bckgr2{background: #cdd7e1}
@@ -16,9 +16,9 @@ margin-top: -30px}
     height: 150px;
     border:3px solid #8ab5be;
     border-radius: 10px;
-position: absolute;
-left: 16px;
-top: 50px}
+    position: absolute;
+    left: 16px;
+    top: 50px}
 
 .text {display: flex;
     flex-direction: row;
@@ -33,15 +33,15 @@ top: 50px}
     margin-top: 75px;
 }
 .box2{width: 500px;
-height: 200px;
-background: #102b3e}
+    height: 200px;
+    background: #102b3e}
 
 .circle{display: flex;
-flex-direction: row;
-align-content: center;
-align-items: center;
-justify-content: space-evenly;
-flex-wrap: wrap}
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap}
 
 .text2{
     display: flex;
