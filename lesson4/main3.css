@@ -1,0 +1,18 @@
+.bd1{background: #2269bb}
+.bd2{background:#16457a}
+.w1{width: 470px}
+.w2{width: 150px}
+.h1{height: 113px}
+.h2{height: 140px}
+.h3{height: 200px}
+.txt{text-align: center}
+.bxsz{box-sizing: border-box}
+.padtop1{padding-top: 50px}
+.padtop2{padding-top: 92px}
+.color{color: white}
+.mleft{margin-left: 10px}
+
+#container{display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px}
