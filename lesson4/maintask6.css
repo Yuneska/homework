@@ -1,0 +1,21 @@
+.w1 {width: 230px}
+.w2 {width:470px}
+.w3{width:150px}
+.h1{height: 300px}
+.h2{height: 200px}
+.color{color: white}
+.bd1{background:#2269bb}
+.bd2{background: #16457a}
+.txtbxsz{text-align: center;
+box-sizing: border-box}
+.pt1{padding-top: 140px}
+.pt2{padding-top: 92px}
+.pt3{padding-top: 95px}
+.mr{margin-right: 10px}
+.mb{margin-bottom: 10px}
+.ml{margin-left: 10px}
+.df{display: flex}
+.fdr{flex-direction: row}
+.fdc{flex-direction: column}
+.jcs{justify-content: flex-start}
+.mt10{margin-top: 10px}
