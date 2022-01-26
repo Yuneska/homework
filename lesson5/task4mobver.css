@@ -85,7 +85,8 @@
     margin-bottom: 10px}
     #container1{display: flex;
     flex-direction: column}
-    .h{width: 400px;
+    .a{width: 270px}
+    .h{width: 270px;
         height: 50px;
         padding-top: 23px;
         margin-top: 35px;
