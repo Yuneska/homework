@@ -6,7 +6,8 @@
     height: 40px;
     box-sizing: border-box;
     padding-top: 20px;
-margin: 5px 0 0 5px}
+    margin: 0
+}
 
 .h {
     background: #676767;
@@ -16,71 +17,94 @@ margin: 5px 0 0 5px}
     width: 295px;
     height: 40px;
     padding-top: 20px;
-margin:5px 0 0 5px}
-.n{   background: #676767;
+    margin: 0 0 0 5px
+}
+
+.n {
+    background: #676767;
     text-align: center;
     color: white;
     box-sizing: border-box;
-width: 60px;
-height:200px;
-margin: 5px 5px 0 5px;
-padding-top:103px }
-.s {   background: #676767;
-    text-align: center;
-    color: white;
-    box-sizing: border-box;
-width: 60px;
-height: 40px;
-margin: 5px 5px 0 5px}
-.t{   background: #676767;
+    width: 60px;
+    height: 200px;
+    margin: 5px 5px 0 0;
+    padding-top: 103px
+}
+
+.s {
+    background: #676767;
     text-align: center;
     color: white;
     box-sizing: border-box;
     width: 60px;
     height: 40px;
-    margin: 5px;
-padding-top: 20px}
+    margin: 5px 5px 0 0
+}
 
-.tp{background: #676767;
+.t {
+    background: #676767;
     text-align: center;
     color: white;
     box-sizing: border-box;
+    width: 60px;
+    height: 40px;
     margin: 5px 5px 5px 0;
-    width: 230px;
-    height: 215px;
-padding-top: 95px}
-.b{background: #676767;
-    text-align: center;
-    color: white;
-    box-sizing: border-box;
-    margin: 5px 0 5px 0;
-    width: 230px;
-    height: 70px;
-padding-top: 20px}
+    padding-top: 20px
+}
 
-.a{background: #676767;
+.tp {
+    background: #676767;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    margin: 0 5px 5px 0;
+    width: 230px;
+    height: 215px;
+    padding-top: 95px
+}
+
+.b {
+    background: #676767;
     text-align: center;
     color: white;
     box-sizing: border-box;
     margin: 5px 0 5px 0;
+    width: 230px;
+    height: 70px;
+    padding-top: 20px
+}
+
+.a {
+    background: #676767;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    margin: 5px 0 5px 5px;
     width: 60px;
     height: 70px;
-padding-top: 20px}
-.r{background: #676767;
+    padding-top: 20px
+}
+
+.r {
+    background: #676767;
     text-align: center;
     color: white;
     box-sizing: border-box;
     width: 60px;
     height: 215px;
-padding-top: 95px}
-.f{ background: #676767;
+    padding-top: 95px
+}
+
+.f {
+    background: #676767;
     text-align: center;
     color: white;
     box-sizing: border-box;
     width: 360px;
     height: 40px;
     padding-top: 20px;
-    margin:0 0 0 5px}
+    margin: 0
+}
 
 #cont {
     display: flex;
@@ -97,20 +121,99 @@ padding-top: 95px}
     flex-direction: column
 }
 
-#cont3 {
+#cnt {
     display: flex;
     flex-direction: column
+}
+
+#cont3 {
+    display: flex;
+    flex-direction: row;
 }
 
 #cont4 {
     display: flex;
-    flex-direction: column
+    flex-direction: row
 }
 
-.mn5 {
-    margin: 5px
-}
+@media screen and (min-width: 0px) and (max-width: 200px) {
+    #cont {
+        width: 100%
+    }
 
-@media screen and (min-width: 0px) and (max-width: 150px) {
+    .h {
+        margin-left: 2px
+    }
+
+    .n {
+        width: 100%;
+        height: 60px;
+        margin-top: 3px;
+        box-sizing: border-box;
+        padding-top: 20px
+    }
+
+    .s {
+        display: none
+    }
+
+    .t {
+        display: none
+    }
+
+    #cont1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column
+    }
+
+    .b {
+        padding-top: 32px;
+        width: 60%;
+        height: 100px
+    }
+
+    .tp {
+        display: none
+    }
+
+    .a {
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        width: 40%;
+        padding-left: 17px;
+        padding-top: 38px
+    }
+
+    #cont4 {
+        display: flex;
+        flex-direction: column;
+        width: 99%;
+        height: 260px
+    }
+
+    .tp {
+        display: block;
+        height: 150px;
+        width: 100%;
+        box-sizing: border-box;
+        padding-top: 60px;
+        padding-left: 10px;
+    }
+
+    #cont3 {
+        margin: -1px 0 -1px 0
+    }
+
+    .r {
+        height: 100px;
+        width: 100%;
+        padding-top: 50px}
+
+    .t{display: block}
+    .s{display: block}
+    .f{width:100%;
+    height: 60px}
 
 }
