@@ -86,7 +86,7 @@
     #container1 {
         justify-content: space-between
     }
-
+.e{margin-right: -1px}
     .b {
         width: 99%;
         height: 95px;
@@ -102,7 +102,7 @@
     }
 
     .f {
-        width: 97%;
+        width: 98%;
         height: 50px;
         padding-top: 23px;
         margin-left: 5px;
