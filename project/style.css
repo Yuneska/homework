@@ -1,0 +1,131 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+
+:root {
+    --black-color: #000;
+    --yellow-color: #F9C600
+}
+
+.header {max-width: 1372px;
+    margin-top: 15.99px;
+    margin-left: 32px;
+}
+
+.topbar {
+    display: flex;
+    height: 83px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{margin-left: 36px}
+.menu1, .menu2 {
+    display: flex;
+    align-items: center
+}
+
+.menu1 {
+    column-gap: 56px
+}
+
+.menu2 {
+    column-gap: 24px
+}
+
+.menu_item {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black-color)
+}
+
+.button {
+    background: #0b2330;
+    color: white;
+    height: 54px;
+    width: 163px;
+    border-radius: 4px;
+    margin-right: 32px;
+    cursor: pointer;
+    box-shadow: var(--black-color);
+    box-sizing: border-box;
+}
+
+.vector {
+    width: 7px;
+    height: 3px;
+    display: flex;
+    align-items: center;
+    margin-left: -50px;
+    color: var(--black-color);
+}
+
+.title {
+    color: #0B2330;
+    width: 456px;
+    height: 256px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    top: -6px;
+    line-height: 64px;
+    letter-spacing: 1.6px;
+    margin-bottom: 32px;
+}
+
+.text {
+    color: #375361;
+    width: 435px;
+    height: 96px;
+    margin-top: 0;
+    line-height: 32px;
+    size: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px
+}
+
+.ybttn {
+    height: 54px;
+    width: 163px;
+    background: #F9C600;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-right: 0
+
+}
+
+.wbttn {
+    background: white;
+    width: 156px;
+    height: 54px;
+    border: 1px solid #0B2330;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-left: 16px
+}
+
+.contentmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: normal;
+}
+.yellowbox {
+    background: #F9C600;
+    width: 600px;
+    height: 886px;
+    margin-right: 0;
+    position: absolute;
+}
+
+.img1 {
+    width: 608px;
+    height: 541px;
+    position: relative;
+    margin-left: -110px;
+    margin-top: 172px;
+    margin-right: 102px;
+}
