@@ -8,7 +8,14 @@
     --yellow-color: #F9C600
 }
 
-.header {max-width: 1372px;
+.headercontent {
+    display: flex;
+    flex-direction: column
+}
+
+.header {
+    max-width: 1372px;
+    height: 3000px;
     margin-top: 15.99px;
     margin-left: 32px;
 }
@@ -19,7 +26,11 @@
     align-items: center;
     justify-content: space-between;
 }
-.logo{margin-left: 36px}
+
+.logo {
+    margin-left: 36px
+}
+
 .menu1, .menu2 {
     display: flex;
     align-items: center
@@ -113,6 +124,7 @@
     justify-content: space-between;
     align-content: normal;
 }
+
 .yellowbox {
     background: #F9C600;
     width: 600px;
@@ -128,4 +140,34 @@
     margin-left: -110px;
     margin-top: 172px;
     margin-right: 102px;
+}
+
+.title2 {
+    width: 547px;
+    height: 96px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    margin: 362px 446px 0 447px;
+    color: #0B2330
+}
+
+.icons {
+    width: 1100px;
+    margin-right: 175px;
+    margin-left: 175px;
+    margin-top: 59px
+}
+
+.iconS {
+    height: 400px;
+    column-gap: 82px;
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between
 }
